@@ -1,0 +1,41 @@
+{
+  "name": "material-ui-es6-sample",
+  "version": "1.0.0",
+  "description": "Material UI sample using ES6 & jspm",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "engines": {
+    "node": ">=0.12"
+  },
+  "private": true,
+  "author": "Nguyen Ly <lyphtec [at] gmail [dot] com>",
+  "license": "MIT",
+  "homepage": "https://github.com/lyphtec/material-ui-es6-sample",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyphtec/material-ui-es6-sample"
+  },
+  "bugs": {
+    "url": "https://github.com/lyphtec/material-ui-es6-sample/issues"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "src"
+    },
+    "dependencies": {
+      "material-ui": "npm:material-ui@^0.11.0",
+      "react": "npm:react@^0.13.3",
+      "react-tap-event-plugin": "npm:react-tap-event-plugin@^0.1.7"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.23",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.3",
+    "jspm": "^0.16.2"
+  }
+}
